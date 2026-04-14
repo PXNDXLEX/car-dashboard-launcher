@@ -1,6 +1,6 @@
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android") version "2.0.20"
+    id("org.jetbrains.kotlin.android")
 }
 
 android {
@@ -27,9 +27,9 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
-    // === MAPA OSMdroid (OpenStreetMap - sin API key) ===
+    // Mapa (OSMdroid - sin clave API)
     implementation("org.osmdroid:osmdroid-android:6.1.20")
 
-    // Para animaciones fluidas y UI moderna
+    // Para animaciones Lottie (estilo DUDU)
     implementation("com.airbnb.android:lottie:6.5.0")
 }
